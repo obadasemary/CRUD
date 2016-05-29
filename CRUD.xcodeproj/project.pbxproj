@@ -15,6 +15,7 @@
 		AF3E6EAF1CFB101D00CF6EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3E6EAD1CFB101D00CF6EAE /* LaunchScreen.storyboard */; };
 		AF3E6EBA1CFB101D00CF6EAE /* CRUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E6EB91CFB101D00CF6EAE /* CRUDTests.swift */; };
 		AF3E6EC51CFB101D00CF6EAE /* CRUDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E6EC41CFB101D00CF6EAE /* CRUDUITests.swift */; };
+		AF3E6ED31CFB15BA00CF6EAE /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E6ED21CFB15BA00CF6EAE /* CoreDataStackManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AF3E6EC01CFB101D00CF6EAE /* CRUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3E6EC41CFB101D00CF6EAE /* CRUDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDUITests.swift; sourceTree = "<group>"; };
 		AF3E6EC61CFB101D00CF6EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF3E6ED21CFB15BA00CF6EAE /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				AF3E6EA11CFB101D00CF6EAE /* AppDelegate.swift */,
 				AF3E6EA31CFB101D00CF6EAE /* ViewController.swift */,
+				AF3E6ED21CFB15BA00CF6EAE /* CoreDataStackManager.swift */,
 				AF3E6EA51CFB101D00CF6EAE /* Main.storyboard */,
 				AF3E6EAB1CFB101D00CF6EAE /* Assets.xcassets */,
 				AF3E6EAD1CFB101D00CF6EAE /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3E6EA41CFB101D00CF6EAE /* ViewController.swift in Sources */,
+				AF3E6ED31CFB15BA00CF6EAE /* CoreDataStackManager.swift in Sources */,
 				AF3E6EAA1CFB101D00CF6EAE /* CRUD.xcdatamodeld in Sources */,
 				AF3E6EA21CFB101D00CF6EAE /* AppDelegate.swift in Sources */,
 			);
